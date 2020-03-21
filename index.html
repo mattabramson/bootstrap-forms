@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap and Forms</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+      <h1>Public Broadcasting Service PBS Quiz</h1>
+
+      <a href="https://en.wikipedia.org/wiki/PBS">PBS Wikipdeia</a>
+
+      <p>Most homes in America receive PBS programming. How much do you know about the Public Broadcasting Service?</p>
+
+      <form>
+
+      <div class="form-group">
+        <label class="form-control-label" for="question1">How many PBS member stations are there?
+        </label><!-- label -->
+        <input type="text" class="form-control" name="question1" id="question1">
+      </div><!-- div -->
+
+      <div class="form-group">
+        <label class="form-check-label" for="question2">What year was PBS launched?
+        </label><!-- label -->
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="question2" id="1970" value="1970">1970
+          </label><!-- label -->
+        </div><!-- div -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input"  type="radio" name="question2" id="1973" value="1973">1973
+          </label><!-- label -->
+        </div><!-- div -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="question2" id="1977" value="1977">1977
+          </label><!-- label -->
+        </div><!-- div -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="question2" id="1980" value="1980">1980
+          </label><!-- label -->
+        </div><!-- div -->
+      </div><!-- div -->
+
+      <div class="form-group">
+        <label class="form-control-label" for="question3">How is PBS funded?
+        </label><!-- label -->
+        <textarea class="form-control" name="question3" id="question3">
+        </textarea>
+      </div><!-- div -->
+
+      <div class="form-group">
+        <label class="form-control-label" for="question4">Which of the following are PBS shows?
+        </label><!-- label -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="question4" value="Answer 1">Nova
+          </label><!-- label -->
+        </div><!-- div -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="question4" value="Answer 2">Better Things
+          </label><!-- label -->
+        </div><!-- div -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="question4" value="Answer 3">Barney & Friends
+          </label><!-- label -->
+        </div><!-- div -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="question4" value="Answer 4">Documentary Now!
+          </label><!-- label -->
+        </div><!-- div -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="question4" value="Answer 5">Downton Abbey
+          </label><!-- label -->
+        </div><!-- div -->
+      </div><!-- div -->
+
+      <div class="form-group">
+        <label class="form-control-label" for="question5">What is the name of the children's programming brand?
+        </label><!-- label -->
+        <input type="text" class="form-control" name="question5" id="question5">
+      </div><!-- div -->
+
+      <div class="form-group">
+        <label class="form-control-label" for="question6">Committee hearing coverage of the following grew PBS's popularity?
+        </label><!-- label -->
+        <select>
+          <div class="form-control">
+            <label class="form-control-label">
+              <option class="form-control" name="question6" id="q6option1" value="1">Clinton's Lewinsky affair
+              </option><!-- option -->
+            </label><!-- label -->
+          </div><!-- div -->
+          <div class="form-control">
+            <label class="for-control-label">
+              <option class="form-control" name="question6" id="q6option2" value="2">Harding's Teapot Dome
+              </option><!-- option -->
+            </label><!-- label -->
+          </div><!-- div -->
+          <div class="form-control">
+            <label class="for-control-label">
+              <option class="form-control" name="question6" id="q6option3" value="3">Reagan's Iran-Contra
+              </option><!-- option -->
+            </label><!-- label -->
+          </div><!-- div -->
+          <div class="form-control">
+            <label class="form-control-label">
+              <option class="form-control" name="question6" id="q6option4" value="4">Jackson's Eaton Affair
+              </option><!-- option -->
+            </label><!-- label -->
+          </div><!-- div -->
+          <div class="form-control">
+            <label class="for-control-label">
+              <option class="form-control" name="question6" id="q6option5" value="5">Nixon's Watergate
+              </option><!-- option -->
+            </label><!-- label -->
+          </div><!-- div -->
+          <div class="form-control">
+            <label class="for-control-label">
+              <option class="form-control" name="question6" id="q6option6" value="6">Grant's Whiskey Ring
+              </option><!-- option -->
+            </label><!-- label -->
+          </div><!-- div -->
+        </select><!-- select -->
+        </div><!-- div -->
+
+        <input class="btn btn-primary" type="submit" value="Sumbit Answers">
+
+        <input class="btn btn-secondary" type="reset" value="Start over">
+
+      </form><!-- form -->
+
+    </div><!-- col -->
+  </div><!-- row -->
+</div><!-- container -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
